@@ -1,18 +1,22 @@
 {
-  "name": "ai-storyboard-ui",
+  "name": "ai-storyboard",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "server": "node server/index.js"
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^10.12.17",
     "jspdf": "^3.0.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "aws-sdk": "^2.1692.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.931.0",
+    "@aws-sdk/client-s3": "^3.931.0",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
