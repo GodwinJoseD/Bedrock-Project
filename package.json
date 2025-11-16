@@ -1,0 +1,12 @@
+{
+  "name": "ai-storyboard",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "vercel-build": "cd frontend && npm install && npm run build"
+  }
+}
